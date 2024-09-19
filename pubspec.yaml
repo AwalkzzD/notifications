@@ -1,0 +1,36 @@
+name: notifications
+description: "A new Flutter project for testing Firebase Push Notifications."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_messaging: ^15.0.4
+  firebase_core: ^3.3.0
+  rxdart: ^0.28.0
+  flutter_local_notifications: ^17.2.2
+  aws_client: ^0.6.0
+  firebase_app_installations: ^0.3.1+3
+  syncfusion_flutter_xlsio: ^27.1.48
+  excel: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
